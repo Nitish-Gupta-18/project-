@@ -1,0 +1,12 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/nitishgupta/code/C-programming/year1/nitishProject/try'
+relocations:
+  - { offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003610, symSize: 0x2C }
+  - { offset: 0x65, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003610, symSize: 0x2C }
+  - { offset: 0x7E, size: 0x8, addend: 0x0, symName: _menu, symObjAddr: 0x2C, symBinAddr: 0x10000363C, symSize: 0xFC }
+  - { offset: 0xA2, size: 0x8, addend: 0x0, symName: _registerPatient, symObjAddr: 0x13C, symBinAddr: 0x10000374C, symSize: 0x158 }
+  - { offset: 0xD4, size: 0x8, addend: 0x0, symName: _registerDoctor, symObjAddr: 0x294, symBinAddr: 0x1000038A4, symSize: 0x128 }
+  - { offset: 0x106, size: 0x8, addend: 0x0, symName: _scheduleAppointment, symObjAddr: 0x3BC, symBinAddr: 0x1000039CC, symSize: 0x12C }
+  - { offset: 0x138, size: 0x8, addend: 0x0, symName: _viewPatientHistory, symObjAddr: 0x4E8, symBinAddr: 0x100003AF8, symSize: 0x190 }
+...
